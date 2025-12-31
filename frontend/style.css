@@ -1,0 +1,115 @@
+body{
+    background-color: #F4F7FE;
+    font-family: 'Poppins', sans-serif;
+
+}
+header{
+    background-color: #2B3674;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+.card-container{
+
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    /* flex-direction: row; */
+    
+    justify-content: center;
+    
+    
+}
+
+.card{
+    background-color: #05CD99;
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    text-align: center;
+    align-content: end;
+    
+    font-family: sans-serif
+}
+#tstud{
+background-color: #A3AED0;
+}
+#fcount{
+background-color: #EE5D50;
+}
+.charts{
+    
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.charts img{
+   
+    /* Limit the size so they don't look pixelated or huge */
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    
+    /* Make the image look like a card to match your design */
+    background-color: #FFFFFF;
+    padding: 15px; /* Adds white space inside the border */
+    border-radius: 15px;
+    
+    /* Same shadow as your .card class for consistency */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); 
+    
+    /* Ensures the image fits nicely inside the padding */
+    object-fit: contain;
+
+}
+
+.main{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: #e6e6e6;
+    align-items: stretch;
+    
+}
+
+.insights{
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: large;
+    text-align: justify;
+
+
+
+}
+
+
+footer{
+    background-color: #2B3674;
+    text-align: center;
+
+}
+
+.card div{
+
+font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+    }
+}
